@@ -1,0 +1,39 @@
+# Core Dependencies
+torch>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Cryptography & FHE
+Pyfhel>=3.4.0
+cryptography>=41.0.0
+
+# Formal Verification
+pytla>=0.1.0
+z3-solver>=4.12.0
+
+# Bitcoin Lightning
+lnd-grpc>=0.4.0
+grpcio>=1.54.0
+protobuf>=4.23.0
+
+# State Space Models
+mamba-ssm>=1.0.0
+einops>=0.7.0
+triton>=2.0.0
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+click>=8.1.0
+colorama>=0.4.6
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
+isort>=5.12.0
